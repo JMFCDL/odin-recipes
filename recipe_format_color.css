@@ -1,27 +1,37 @@
-.cookie h1 {
-    color: red;
-}
-
-.muffin h1 {
-    color: blue;
-}
-
+.homepage h1,
+.cookie h1,
+.muffin h1,
 .pudding h1 {
-    color: green;
-}
-
-.homepage h1 {
     color: black;
 }
 
-.homepage {
+.homepage,
+.cookieheading,
+.muffinheading,
+.puddingheading {
     text-align: center;
-    background-color: lightgrey;
+}
+
+.homepage {
+    background-color: lightgray;
+}
+
+.cookie {
+    background-color: rgb(247, 247, 205);
+}
+
+.muffin {
+    background-color: rgb(162, 212, 243);
+}
+
+.pudding {
+    background-color: rgb(186, 241, 186);
 }
 
 .image1,
 .image2,
-.image3 {
+.image3,
+.image4 {
     position: relative;
     height: 100%;
     width: 100%;
