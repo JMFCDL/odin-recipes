@@ -16,8 +16,23 @@
     background-color: lightgray;
 }
 
-.cookie {
+.cookie,
+.muffin,
+.pudding {
     background-color: rgb(191, 157, 229);
+    font-family: cursive;
+}
+
+.cookie.description p,
+.cookie.ingredients ul,
+.cookie.steps ol,
+.muffin.description p,
+.muffin.ingredients ul,
+.muffin.steps ol,
+.pudding.description p,
+.pudding.ingredients ul,
+.pudding.steps ol {
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 .muffin {
@@ -26,6 +41,40 @@
 
 .pudding {
     background-color: rgb(186, 241, 186);
+}
+
+.cookie.description,
+.cookie.ingredients,
+.cookie.steps, 
+.muffin.description,
+.muffin.ingredients,
+.muffin.steps,
+.pudding.description,
+.pudding.ingredients,
+.pudding.steps {
+    border: hidden;
+    border-radius: 30px;
+    padding: 20px;
+    margin: 20px;
+    font-size: 20px;
+}
+
+.cookie.description,
+.cookie.ingredients,
+.cookie.steps {
+    background-color: rgb(245, 245, 211);
+}
+
+.muffin.description,
+.muffin.ingredients,
+.muffin.steps {
+    background-color: rgb(178, 182, 186);
+}
+
+.pudding.description,
+.pudding.ingredients,
+.pudding.steps {
+    background-color: rgb(244, 190, 171);
 }
 
 .image1,
