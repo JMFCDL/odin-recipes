@@ -1,5 +1,5 @@
 .homepage h1,
-.cookie h1,
+.description h1,
 .muffin h1,
 .pudding h1 {
     color: black;
@@ -17,7 +17,7 @@
 }
 
 .cookie {
-    background-color: rgb(247, 247, 205);
+    background-color: rgb(191, 157, 229);
 }
 
 .muffin {
@@ -30,8 +30,7 @@
 
 .image1,
 .image2,
-.image3,
-.image4 {
+.image3 {
     position: relative;
     height: 100%;
     width: 100%;
@@ -54,13 +53,11 @@
 
 .image1:hover .overlay,
 .image2:hover .overlay,
-.image3:hover .overlay{
+.image3:hover .overlay {
     opacity: 1;
 }
 
-.recipe1,
-.recipe2,
-.recipe3 {
+.recipe {
     text-align: center;
     font-size: 60px;
     top: 50%;
@@ -70,9 +67,7 @@
     font-family: cursive, serif;
 }
 
-.adjective1,
-.adjective2,
-.adjective3 {
+.adjective {
     text-align: center;
     font-size: 50px;
     top: 50%;
